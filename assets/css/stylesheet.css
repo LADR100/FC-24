@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#container{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(141, 193, 93);
+}
+
+#nav{
+    background-image: linear-gradient(to right top, #9d5454, #905050, #703a3a, #662f2f, #481d1d);
+    color:rgb(165, 25, 25);
+    display: table;
+    width: 100%;
+}
+
+#nav ol{
+    display: flex;
+}
+
+#nav ol li{
+    list-style: none;
+}
+
+#nav ol li a{
+    text-decoration: none;
+    padding: 15px 25px 15px 25px;
+    display: table;
+    color: rgb(255, 255, 255);
+}
+
+#header{
+    display: table;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(../img/VINICIUS.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#header h2{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 400px;
+    color: rgb(32, 48, 64);
+    font-size: 3cm;
+}
+
+#footer{
+    display: table;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    height: 100px;
+    color: rgb(245, 242, 242);
+    text-align: center;
+    padding-top: 2%;
+    font-weight: 700;
+    background-image: linear-gradient(to right top, #9d5454, #905050, #703a3a, #662f2f, #481d1d);
+}
+
+#descripción{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right top, #bdcedf, #89b3c8, #72adcf, #579bcc, #3ca5cf);
+    color: black;
+}
+
+#ultimate{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right top, #bdcedf, #89b3c8, #72adcf, #579bcc, #3ca5cf);
+    color: black;
+}
+
+#clubes{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right top, #bdcedf, #89b3c8, #72adcf, #579bcc, #3ca5cf);
+    color: black;
+}
+
+#licencias{
+    display: table;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right top, #bdcedf, #89b3c8, #72adcf, #579bcc, #3ca5cf);
+    color: black;
+}
+
+.Imagen-DESCRIPCIÓN{
+
+width:250px;
+height:250px;
+float: left;
+margin-bottom: 3%;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 1%;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 11%;
+            
+}
+
+.Imagen-ULTIMATE{
+
+width:250px;
+height:250px;
+float: right;
+margin-bottom: 3%;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 1%;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 11%;
+                
+}
+
+.Imagen-CLUBES{
+
+width:260px;
+height:260px;
+float: left;
+margin-bottom: 3%;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 1%;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 11%;
+                    
+}
+
+.Imagen-LICENCIAS{
+
+width:260px;
+height:260px;
+float: right;
+margin-bottom: 3%;
+margin-left: 5%;
+margin-right: 5%;
+margin-top: 1%;
+border: 1px solid rgb(255, 255, 255);
+border-radius: 11%;
+                        
+}
+
+h3{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+}
+
+p{
+    text-align: justify;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 1%;
+    font-size: 0.5cm;
+    font-family: sans-serif;
+}
+
+@media  (max-width:250px) {
+    #header{
+        display: table;
+        width: 100%;
+        height: 400px;
+        background-color: rgb(255, 255, 255);
+        background-image: url(../img/VINICIUS.webp);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+
+    #header h2{
+        display: none;
+    
+    }
+
+
+    #nav{
+        background-color: rgba(27, 18, 18, 0.355);
+        color:rgb(165, 25, 25);
+        display: table;
+        width: 100%;
+    }
+    
+    #nav ol{
+        display: block;
+    }
+    
+    #nav ol li{
+        text-align: center;
+    }
+    
+    #nav ol li a{
+        text-decoration: none;
+        width: 100%;
+        display: table;
+        border-bottom: 1px solid rgb(187, 185, 54);
+        color: rgb(255, 255, 255);
+    }
+}
+    
